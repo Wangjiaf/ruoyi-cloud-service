@@ -1,0 +1,384 @@
+2024-11-10 00:06:46,282 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 00:10:45,624 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 00:10:59,757 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 00:14:11,947 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 00:36:46,281 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 00:40:45,624 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 00:40:59,758 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 00:44:11,946 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:06:46,284 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:10:45,625 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:10:59,758 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:14:11,947 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:36:46,283 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:40:45,626 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:40:59,759 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 01:44:11,947 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 02:06:46,282 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 02:10:45,625 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 02:10:59,760 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 02:14:11,948 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 02:36:46,283 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 02:40:45,627 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 02:40:59,760 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 02:44:11,949 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 03:06:46,284 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 03:10:45,629 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 03:10:59,762 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 03:14:11,949 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 03:36:46,285 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 03:40:45,629 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 03:40:59,761 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 03:44:11,950 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 04:06:46,286 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 04:10:45,629 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 04:10:59,761 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 04:14:11,951 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 04:36:46,287 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 04:40:45,630 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 04:40:59,762 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 04:44:11,951 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 05:06:46,288 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 05:10:45,630 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 05:10:59,763 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 05:14:11,952 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 05:36:46,289 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 05:40:45,632 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 05:40:59,764 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 05:44:11,953 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 06:06:46,289 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 06:10:45,633 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 06:10:59,764 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 06:14:11,953 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 06:36:46,290 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 06:40:45,634 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 06:40:59,764 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 06:44:11,955 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 07:06:46,290 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 07:10:45,633 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 07:10:59,766 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 07:14:11,955 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 07:36:46,292 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 07:40:45,634 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 07:40:59,773 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 07:44:11,956 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:06:46,293 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:10:45,635 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:10:59,768 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:14:11,957 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:36:46,293 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:40:45,637 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:40:59,769 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 08:44:11,958 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:06:46,293 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:10:45,638 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:10:59,771 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:14:11,958 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:36:46,293 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:40:45,639 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:40:59,773 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 09:44:11,959 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:06:46,294 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:10:45,640 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:10:59,771 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:14:11,960 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:36:46,295 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:40:45,641 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:40:59,773 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 10:44:11,961 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 11:06:46,296 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 11:10:45,641 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 11:10:59,774 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 11:14:11,962 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 11:36:46,297 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 11:40:45,642 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 11:40:59,774 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 11:44:11,963 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 12:06:46,297 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 12:10:45,643 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 12:10:59,775 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 12:14:11,964 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 12:36:46,297 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 12:40:45,643 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 12:40:59,776 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 12:44:11,965 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:06:46,298 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:10:45,644 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:10:59,777 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:14:11,965 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:36:46,299 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:40:45,645 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:40:59,778 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 13:44:11,966 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 14:06:46,300 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 14:10:45,646 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 14:10:59,785 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 14:14:11,968 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 14:36:46,300 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 14:40:45,645 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 14:40:59,786 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 14:44:11,968 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 15:06:46,301 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 15:10:45,647 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 15:10:59,786 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 15:14:11,969 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 15:36:46,301 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 15:40:45,648 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 15:40:59,786 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 15:44:11,970 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 16:06:46,303 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 16:10:45,649 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 16:10:59,786 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 16:14:11,970 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 16:36:46,303 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 16:40:45,650 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 16:40:59,787 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 16:44:11,971 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 17:06:46,305 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 17:10:45,651 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 17:10:59,787 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 17:14:11,971 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 17:36:46,304 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 17:40:45,652 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 17:40:59,788 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 17:44:11,972 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 18:06:46,305 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 18:10:45,652 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 18:10:59,789 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 18:14:11,974 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 18:36:46,306 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 18:40:45,653 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 18:40:59,790 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 18:44:11,975 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 19:06:46,307 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 19:10:45,654 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 19:10:59,791 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 19:14:11,974 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 19:36:46,307 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 19:40:45,655 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 19:40:59,793 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 19:44:11,975 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 20:06:46,307 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 20:10:45,656 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 20:10:59,794 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 20:14:11,976 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 20:36:46,311 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 20:40:45,656 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 20:40:59,795 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 20:44:11,977 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 21:06:46,311 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 21:10:45,658 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 21:10:59,795 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 21:14:11,978 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 1 ms.
+
+2024-11-10 21:36:46,311 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 21:40:45,657 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 21:40:59,796 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 21:44:11,979 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:06:46,313 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:10:45,658 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:10:59,798 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:14:11,980 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:36:46,315 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:40:45,659 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:40:59,798 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 22:44:11,980 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:06:46,315 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:10:45,658 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:10:59,799 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:14:11,980 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:36:46,316 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_service_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:40:45,659 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_instance_metadata\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:40:59,799 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service\log from log index 7 to 7, cost 0 ms.
+
+2024-11-10 23:44:11,981 INFO Truncated prefix logs in data path: D:\Aiko_new_root\Aiko_workspaces\RuoYi-Origin\Ruoyi-Cloud\RuoYi-Cloud-Java\docker\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 7 to 7, cost 0 ms.
+

@@ -1,0 +1,12 @@
+2024-11-04 13:47:57,590 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2024-11-04 13:49:36,877 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2024-11-04 13:51:38,833 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2024-11-04 13:53:12,923 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2024-11-04 13:55:16,111 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2024-11-04 13:55:53,389 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+

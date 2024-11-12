@@ -1,0 +1,104 @@
+2024-11-07 16:07:53,209 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-07 16:07:53,209 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-07 16:07:53,210 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-07 16:07:53,210 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-07 16:07:53,567 INFO Load instance extension handler []
+
+2024-11-07 16:08:18,156 INFO Client connection 1730966898144_127.0.0.1_63865 connect
+
+2024-11-07 16:08:18,288 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=0}, 1730966898144_127.0.0.1_63865
+
+2024-11-07 16:08:18,410 INFO Client connection 1730966898396_127.0.0.1_63875 connect
+
+2024-11-07 16:08:18,523 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=0}, 1730966898396_127.0.0.1_63875
+
+2024-11-07 16:08:23,873 INFO Client connection 1730966903865_127.0.0.1_64077 connect
+
+2024-11-07 16:08:23,988 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1730966903865_127.0.0.1_64077
+
+2024-11-07 16:08:27,452 INFO Client connection 1730966907444_127.0.0.1_64154 connect
+
+2024-11-07 16:08:27,562 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=0}, 1730966907444_127.0.0.1_64154
+
+2024-11-07 16:08:29,939 INFO Client connection 1730966909929_127.0.0.1_64277 connect
+
+2024-11-07 16:08:30,047 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=0}, 1730966909929_127.0.0.1_64277
+
+2024-11-07 16:08:32,744 INFO Client connection 1730966912738_127.0.0.1_64317 connect
+
+2024-11-07 16:08:32,853 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, 1730966912738_127.0.0.1_64317
+
+2024-11-07 16:08:40,589 INFO Client connection 1730966920582_127.0.0.1_64417 connect
+
+2024-11-07 16:08:40,699 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, 1730966920582_127.0.0.1_64417
+
+2024-11-07 16:16:02,008 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, 1730966903865_127.0.0.1_64077
+
+2024-11-07 16:16:02,049 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, 1730966898144_127.0.0.1_63865
+
+2024-11-07 16:16:02,049 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=1}, 1730966898396_127.0.0.1_63875
+
+2024-11-07 16:16:02,060 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, 1730966920582_127.0.0.1_64417
+
+2024-11-07 16:16:02,068 INFO Client connection 1730966903865_127.0.0.1_64077 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,075 INFO Client connection 1730966898144_127.0.0.1_63865 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,076 INFO Client connection 1730966898396_127.0.0.1_63875 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,080 INFO Client connection 1730966920582_127.0.0.1_64417 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,281 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, 1730966907444_127.0.0.1_64154
+
+2024-11-07 16:16:02,291 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, 1730966912738_127.0.0.1_64317
+
+2024-11-07 16:16:02,294 INFO Client connection 1730966907444_127.0.0.1_64154 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,304 INFO Client connection 1730966912738_127.0.0.1_64317 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,412 INFO Client connection 1730966892996_127.0.0.1_63749 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,639 INFO Client connection 1730966890631_127.0.0.1_63699 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,652 INFO Client connection 1730966897815_127.0.0.1_63859 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,671 INFO Client connection 1730966902784_127.0.0.1_63999 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:02,671 INFO Client connection 1730966907993_127.0.0.1_64195 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:03,728 INFO Client connection 1730966904103_127.0.0.1_64079 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:03,728 INFO Client connection 1730966909929_127.0.0.1_64277 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:03,736 INFO Client connection 1730966895526_127.0.0.1_63808 disconnect, remove instances and subscribers
+
+2024-11-07 16:16:03,738 INFO Client connection 1730966903439_127.0.0.1_64004 disconnect, remove instances and subscribers
+
+2024-11-07 16:17:23,364 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2024-11-07 16:17:23,365 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-monitor] services are automatically cleaned
+
+2024-11-07 16:17:23,365 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-file] services are automatically cleaned
+
+2024-11-07 16:17:23,365 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-system] services are automatically cleaned
+
+2024-11-07 16:17:23,365 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-auth] services are automatically cleaned
+
+2024-11-07 16:17:23,365 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gen] services are automatically cleaned
+
+2024-11-07 16:17:23,365 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-job] services are automatically cleaned
+
+2024-11-07 17:19:31,521 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-07 17:19:31,521 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-07 17:19:31,521 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-07 17:19:31,521 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-07 17:19:31,870 INFO Load instance extension handler []
+

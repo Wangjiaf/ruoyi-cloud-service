@@ -1,0 +1,88 @@
+2024-11-04 13:48:00,111 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["172.16.98.40:7848"],"strictMode":false,"selfMember":"172.16.98.40:7848"}
+
+2024-11-04 13:48:00,371 INFO ========= The raft protocol is starting... =========
+
+2024-11-04 13:48:00,400 INFO ========= The raft protocol start finished... =========
+
+2024-11-04 13:48:00,404 INFO create raft group : naming_persistent_service
+
+2024-11-04 13:48:00,718 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='172.16.98.40:7848', term=1, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:48:00,769 INFO create raft group : naming_persistent_service_v2
+
+2024-11-04 13:48:00,814 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='172.16.98.40:7848', term=1, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:48:00,823 INFO create raft group : naming_instance_metadata
+
+2024-11-04 13:48:00,867 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='172.16.98.40:7848', term=1, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:48:00,870 INFO create raft group : naming_service_metadata
+
+2024-11-04 13:48:00,913 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='172.16.98.40:7848', term=1, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:53:15,568 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["172.16.98.40:7848"],"strictMode":false,"selfMember":"172.16.98.40:7848"}
+
+2024-11-04 13:53:15,831 INFO ========= The raft protocol is starting... =========
+
+2024-11-04 13:53:15,861 INFO ========= The raft protocol start finished... =========
+
+2024-11-04 13:53:15,865 INFO create raft group : naming_persistent_service
+
+2024-11-04 13:53:16,196 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='172.16.98.40:7848', term=2, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:53:16,244 INFO create raft group : naming_persistent_service_v2
+
+2024-11-04 13:53:16,299 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='172.16.98.40:7848', term=2, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:53:16,307 INFO create raft group : naming_instance_metadata
+
+2024-11-04 13:53:16,365 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='172.16.98.40:7848', term=2, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:53:16,366 INFO create raft group : naming_service_metadata
+
+2024-11-04 13:53:16,423 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='172.16.98.40:7848', term=2, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:18,775 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["172.16.98.40:7848"],"strictMode":false,"selfMember":"172.16.98.40:7848"}
+
+2024-11-04 13:55:19,038 INFO ========= The raft protocol is starting... =========
+
+2024-11-04 13:55:19,070 INFO ========= The raft protocol start finished... =========
+
+2024-11-04 13:55:19,073 INFO create raft group : naming_persistent_service
+
+2024-11-04 13:55:19,391 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='172.16.98.40:7848', term=3, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:19,439 INFO create raft group : naming_persistent_service_v2
+
+2024-11-04 13:55:19,498 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='172.16.98.40:7848', term=3, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:19,507 INFO create raft group : naming_instance_metadata
+
+2024-11-04 13:55:19,561 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='172.16.98.40:7848', term=3, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:19,563 INFO create raft group : naming_service_metadata
+
+2024-11-04 13:55:19,641 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='172.16.98.40:7848', term=3, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:55,960 INFO Initializes the Raft protocol, raft-config info : {"data":{},"members":["172.16.98.40:7848"],"strictMode":false,"selfMember":"172.16.98.40:7848"}
+
+2024-11-04 13:55:56,217 INFO ========= The raft protocol is starting... =========
+
+2024-11-04 13:55:56,246 INFO ========= The raft protocol start finished... =========
+
+2024-11-04 13:55:56,249 INFO create raft group : naming_persistent_service
+
+2024-11-04 13:55:56,567 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='172.16.98.40:7848', term=4, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:56,616 INFO create raft group : naming_persistent_service_v2
+
+2024-11-04 13:55:56,671 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='172.16.98.40:7848', term=4, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:56,680 INFO create raft group : naming_instance_metadata
+
+2024-11-04 13:55:56,754 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='172.16.98.40:7848', term=4, raftClusterInfo=[172.16.98.40:7848]}
+
+2024-11-04 13:55:56,755 INFO create raft group : naming_service_metadata
+
+2024-11-04 13:55:56,814 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='172.16.98.40:7848', term=4, raftClusterInfo=[172.16.98.40:7848]}
+

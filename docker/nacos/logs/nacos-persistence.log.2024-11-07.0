@@ -1,0 +1,4 @@
+2024-11-07 16:07:49,643 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2024-11-07 17:19:28,287 WARN [master-db] jdbc:mysql://10.254.0.57:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+

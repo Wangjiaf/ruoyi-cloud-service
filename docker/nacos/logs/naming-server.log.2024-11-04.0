@@ -1,0 +1,516 @@
+2024-11-04 13:44:43,391 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,392 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,392 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,392 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,392 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,393 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,393 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,393 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,394 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,394 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:44:43,394 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,692 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,692 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,692 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,692 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,692 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,693 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,693 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,694 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,694 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,694 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,694 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,694 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:45:19,694 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-11-04 13:48:00,715 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-04 13:48:00,715 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-04 13:48:00,715 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-04 13:48:00,716 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-04 13:48:01,005 INFO Load instance extension handler []
+
+2024-11-04 13:53:16,195 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-04 13:53:16,195 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-04 13:53:16,196 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-04 13:53:16,196 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-04 13:53:16,525 INFO Load instance extension handler []
+
+2024-11-04 13:55:19,388 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-04 13:55:19,388 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-04 13:55:19,389 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-04 13:55:19,389 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-04 13:55:19,743 INFO Load instance extension handler []
+
+2024-11-04 13:55:56,565 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-11-04 13:55:56,565 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-11-04 13:55:56,565 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-11-04 13:55:56,566 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-11-04 13:55:56,907 INFO Load instance extension handler []
+
+2024-11-04 14:23:49,566 INFO Client connection 1730701429554_127.0.0.1_53960 connect
+
+2024-11-04 14:23:49,695 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=0}, 1730701429554_127.0.0.1_53960
+
+2024-11-04 14:23:53,615 INFO Client connection 1730701433602_127.0.0.1_54037 connect
+
+2024-11-04 14:23:53,722 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=0}, 1730701433602_127.0.0.1_54037
+
+2024-11-04 14:24:03,357 INFO Client connection 1730701443345_127.0.0.1_54186 connect
+
+2024-11-04 14:24:03,464 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1730701443345_127.0.0.1_54186
+
+2024-11-04 14:24:11,943 INFO Client connection 1730701451933_127.0.0.1_54293 connect
+
+2024-11-04 14:24:12,055 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=0}, 1730701451933_127.0.0.1_54293
+
+2024-11-04 14:24:16,968 INFO Client connection 1730701449796_127.0.0.1_54285 disconnect, remove instances and subscribers
+
+2024-11-04 14:24:22,396 INFO Client connection 1730701462372_127.0.0.1_54451 connect
+
+2024-11-04 14:24:22,663 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=0}, 1730701462372_127.0.0.1_54451
+
+2024-11-04 14:24:28,826 INFO Client connection 1730701463832_127.0.0.1_54498 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:18,343 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, 1730701443345_127.0.0.1_54186
+
+2024-11-04 14:29:18,361 INFO Client connection 1730701443345_127.0.0.1_54186 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:18,383 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, 1730701429554_127.0.0.1_53960
+
+2024-11-04 14:29:18,383 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=1}, 1730701433602_127.0.0.1_54037
+
+2024-11-04 14:29:18,405 INFO Client connection 1730701433602_127.0.0.1_54037 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:18,438 INFO Client connection 1730701429554_127.0.0.1_53960 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:18,615 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, 1730701451933_127.0.0.1_54293
+
+2024-11-04 14:29:18,630 INFO Client connection 1730701451933_127.0.0.1_54293 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:18,747 INFO Client connection 1730701427984_127.0.0.1_53948 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:19,002 INFO Client connection 1730701442246_127.0.0.1_54145 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:19,027 INFO Client connection 1730701422608_127.0.0.1_53893 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:20,433 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=1}, 1730701462372_127.0.0.1_54451
+
+2024-11-04 14:29:20,446 INFO Client connection 1730701462372_127.0.0.1_54451 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:20,785 INFO Client connection 1730701456368_127.0.0.1_54384 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:20,958 INFO Client connection 1730701435077_127.0.0.1_54082 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:20,958 INFO Client connection 1730701442883_127.0.0.1_54147 disconnect, remove instances and subscribers
+
+2024-11-04 14:29:32,279 INFO Client connection 1730701772273_127.0.0.1_55473 connect
+
+2024-11-04 14:29:32,392 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=2}, 1730701772273_127.0.0.1_55473
+
+2024-11-04 14:29:34,623 INFO Client connection 1730701774616_127.0.0.1_55528 connect
+
+2024-11-04 14:29:34,734 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, 1730701774616_127.0.0.1_55528
+
+2024-11-04 14:29:38,240 INFO Client connection 1730701778234_127.0.0.1_55682 connect
+
+2024-11-04 14:29:38,349 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=2}, 1730701778234_127.0.0.1_55682
+
+2024-11-04 14:29:39,680 INFO Client connection 1730701779674_127.0.0.1_55758 connect
+
+2024-11-04 14:29:39,791 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=2}, 1730701779674_127.0.0.1_55758
+
+2024-11-04 14:29:42,786 INFO Client connection 1730701782780_127.0.0.1_55771 connect
+
+2024-11-04 14:29:42,939 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, 1730701782780_127.0.0.1_55771
+
+2024-11-04 14:29:44,973 INFO Client connection 1730701784966_127.0.0.1_55812 connect
+
+2024-11-04 14:29:45,085 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=2}, 1730701784966_127.0.0.1_55812
+
+2024-11-04 14:29:47,827 INFO Client connection 1730701787816_127.0.0.1_55855 connect
+
+2024-11-04 14:29:47,938 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=2}, 1730701787816_127.0.0.1_55855
+
+2024-11-04 14:31:31,621 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=3}, 1730701784966_127.0.0.1_55812
+
+2024-11-04 14:31:31,645 INFO Client connection 1730701784966_127.0.0.1_55812 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:31,666 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=3}, 1730701779674_127.0.0.1_55758
+
+2024-11-04 14:31:31,676 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=3}, 1730701778234_127.0.0.1_55682
+
+2024-11-04 14:31:31,684 INFO Client connection 1730701779674_127.0.0.1_55758 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:31,687 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, 1730701782780_127.0.0.1_55771
+
+2024-11-04 14:31:31,690 INFO Client connection 1730701778234_127.0.0.1_55682 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:31,700 INFO Client connection 1730701782780_127.0.0.1_55771 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:31,894 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=3}, 1730701787816_127.0.0.1_55855
+
+2024-11-04 14:31:31,897 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, 1730701774616_127.0.0.1_55528
+
+2024-11-04 14:31:31,905 INFO Client connection 1730701787816_127.0.0.1_55855 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:31,907 INFO Client connection 1730701774616_127.0.0.1_55528 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:32,025 INFO Client connection 1730701774451_127.0.0.1_55524 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:32,246 INFO Client connection 1730701779609_127.0.0.1_55759 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:32,261 INFO Client connection 1730701771763_127.0.0.1_55467 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:32,265 INFO Client connection 1730701764748_127.0.0.1_55279 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:32,281 INFO Client connection 1730701769222_127.0.0.1_55380 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:33,702 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=3}, 1730701772273_127.0.0.1_55473
+
+2024-11-04 14:31:33,714 INFO Client connection 1730701772273_127.0.0.1_55473 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:34,051 INFO Client connection 1730701766816_127.0.0.1_55327 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:34,247 INFO Client connection 1730701777302_127.0.0.1_55636 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:34,247 INFO Client connection 1730701784567_127.0.0.1_55779 disconnect, remove instances and subscribers
+
+2024-11-04 14:31:42,618 INFO Client connection 1730701902609_127.0.0.1_56303 connect
+
+2024-11-04 14:31:42,907 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=4}, 1730701902609_127.0.0.1_56303
+
+2024-11-04 14:31:45,045 INFO Client connection 1730701905039_127.0.0.1_56364 connect
+
+2024-11-04 14:31:45,155 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=4}, 1730701905039_127.0.0.1_56364
+
+2024-11-04 14:31:49,026 INFO Client connection 1730701909019_127.0.0.1_56519 connect
+
+2024-11-04 14:31:49,135 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=4}, 1730701909019_127.0.0.1_56519
+
+2024-11-04 14:31:52,495 INFO Client connection 1730701912490_127.0.0.1_56615 connect
+
+2024-11-04 14:31:52,604 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=4}, 1730701912490_127.0.0.1_56615
+
+2024-11-04 14:31:54,437 INFO Client connection 1730701914432_127.0.0.1_56700 connect
+
+2024-11-04 14:31:54,547 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=4}, 1730701914432_127.0.0.1_56700
+
+2024-11-04 14:31:56,080 INFO Client connection 1730701916075_127.0.0.1_56724 connect
+
+2024-11-04 14:31:56,190 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=2}, 1730701916075_127.0.0.1_56724
+
+2024-11-04 14:32:04,252 INFO Client connection 1730701924247_127.0.0.1_56820 connect
+
+2024-11-04 14:32:04,360 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, 1730701924247_127.0.0.1_56820
+
+2024-11-04 17:16:28,341 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=5}, 1730701909019_127.0.0.1_56519
+
+2024-11-04 17:16:28,370 INFO Client connection 1730701909019_127.0.0.1_56519 disconnect, remove instances and subscribers
+
+2024-11-04 17:16:30,823 INFO Client connection 1730701901056_127.0.0.1_56294 disconnect, remove instances and subscribers
+
+2024-11-04 17:16:30,827 INFO Client connection 1730701908567_127.0.0.1_56481 disconnect, remove instances and subscribers
+
+2024-11-04 17:16:49,268 INFO Client connection 1730711809262_127.0.0.1_53094 connect
+
+2024-11-04 17:16:49,380 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=6}, 1730711809262_127.0.0.1_53094
+
+2024-11-04 17:29:57,883 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=7}, 1730711809262_127.0.0.1_53094
+
+2024-11-04 17:29:57,895 INFO Client connection 1730711809262_127.0.0.1_53094 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:57,922 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, 1730701924247_127.0.0.1_56820
+
+2024-11-04 17:29:57,924 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=5}, 1730701905039_127.0.0.1_56364
+
+2024-11-04 17:29:57,933 INFO Client connection 1730701924247_127.0.0.1_56820 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:57,935 INFO Client connection 1730701905039_127.0.0.1_56364 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:57,972 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=5}, 1730701902609_127.0.0.1_56303
+
+2024-11-04 17:29:57,985 INFO Client connection 1730701902609_127.0.0.1_56303 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:58,143 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=5}, 1730701912490_127.0.0.1_56615
+
+2024-11-04 17:29:58,154 INFO Client connection 1730701912490_127.0.0.1_56615 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:58,399 INFO Client connection 1730701897066_127.0.0.1_56207 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:58,517 INFO Client connection 1730701898384_127.0.0.1_56247 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:58,530 INFO Client connection 1730701911697_127.0.0.1_56610 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:58,535 INFO Client connection 1730701903610_127.0.0.1_56351 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:58,537 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=3}, 1730701916075_127.0.0.1_56724
+
+2024-11-04 17:29:58,608 INFO Client connection 1730701916075_127.0.0.1_56724 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:59,058 INFO Client connection 1730701906324_127.0.0.1_56441 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:59,788 INFO Client connection 1730711801037_127.0.0.1_53038 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:59,791 INFO Client connection 1730711808838_127.0.0.1_53061 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:59,803 INFO Client connection 1730701908897_127.0.0.1_56517 disconnect, remove instances and subscribers
+
+2024-11-04 17:29:59,805 INFO Client connection 1730701914432_127.0.0.1_56700 disconnect, remove instances and subscribers
+
+2024-11-04 17:31:26,856 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2024-11-04 17:31:26,856 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-monitor] services are automatically cleaned
+
+2024-11-04 17:31:26,856 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-file] services are automatically cleaned
+
+2024-11-04 17:31:26,856 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-system] services are automatically cleaned
+
+2024-11-04 17:31:26,856 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-auth] services are automatically cleaned
+
+2024-11-04 17:31:26,856 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gen] services are automatically cleaned
+
+2024-11-04 17:31:26,856 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-job] services are automatically cleaned
+
+2024-11-04 17:34:29,117 INFO Client connection 1730712869110_127.0.0.1_55902 connect
+
+2024-11-04 17:34:29,227 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=0}, 1730712869110_127.0.0.1_55902
+
+2024-11-04 17:34:29,569 INFO Client connection 1730712869557_127.0.0.1_55911 connect
+
+2024-11-04 17:34:29,855 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=0}, 1730712869557_127.0.0.1_55911
+
+2024-11-04 17:34:34,429 INFO Client connection 1730712874422_127.0.0.1_56097 connect
+
+2024-11-04 17:34:34,538 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=0}, 1730712874422_127.0.0.1_56097
+
+2024-11-04 17:34:38,040 INFO Client connection 1730712878032_127.0.0.1_56204 connect
+
+2024-11-04 17:34:38,148 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=0}, 1730712878032_127.0.0.1_56204
+
+2024-11-04 17:34:40,182 INFO Client connection 1730712880040_127.0.0.1_56288 connect
+
+2024-11-04 17:34:40,292 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-monitor', ephemeral=true, revision=0}, 1730712880040_127.0.0.1_56288
+
+2024-11-04 17:34:41,559 INFO Client connection 1730712881554_127.0.0.1_56314 connect
+
+2024-11-04 17:34:41,670 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=0}, 1730712881554_127.0.0.1_56314
+
+2024-11-04 17:34:49,849 INFO Client connection 1730712889843_127.0.0.1_56423 connect
+
+2024-11-04 17:34:49,956 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=0}, 1730712889843_127.0.0.1_56423
+
+2024-11-04 17:35:54,513 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, 1730712874422_127.0.0.1_56097
+
+2024-11-04 17:35:54,535 INFO Client connection 1730712874422_127.0.0.1_56097 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:54,541 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-file', ephemeral=true, revision=1}, 1730712869557_127.0.0.1_55911
+
+2024-11-04 17:35:54,559 INFO Client connection 1730712869557_127.0.0.1_55911 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:54,567 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, 1730712889843_127.0.0.1_56423
+
+2024-11-04 17:35:54,570 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, 1730712869110_127.0.0.1_55902
+
+2024-11-04 17:35:54,582 INFO Client connection 1730712889843_127.0.0.1_56423 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:54,587 INFO Client connection 1730712869110_127.0.0.1_55902 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:54,813 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, 1730712878032_127.0.0.1_56204
+
+2024-11-04 17:35:54,817 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-job', ephemeral=true, revision=1}, 1730712881554_127.0.0.1_56314
+
+2024-11-04 17:35:54,834 INFO Client connection 1730712881554_127.0.0.1_56314 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:54,834 INFO Client connection 1730712878032_127.0.0.1_56204 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:54,906 INFO Client connection 1730712864427_127.0.0.1_55804 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:55,163 INFO Client connection 1730712862869_127.0.0.1_55764 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:55,186 INFO Client connection 1730712877758_127.0.0.1_56200 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:55,199 INFO Client connection 1730712871837_127.0.0.1_55996 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:55,203 INFO Client connection 1730712869297_127.0.0.1_55908 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:56,584 INFO Client connection 1730712873992_127.0.0.1_56031 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:56,585 INFO Client connection 1730712866873_127.0.0.1_55851 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:56,590 INFO Client connection 1730712874887_127.0.0.1_56101 disconnect, remove instances and subscribers
+
+2024-11-04 17:35:56,590 INFO Client connection 1730712880040_127.0.0.1_56288 disconnect, remove instances and subscribers
+
+2024-11-04 17:37:26,862 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gateway] services are automatically cleaned
+
+2024-11-04 17:37:26,862 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-monitor] services are automatically cleaned
+
+2024-11-04 17:37:26,862 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-file] services are automatically cleaned
+
+2024-11-04 17:37:26,862 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-system] services are automatically cleaned
+
+2024-11-04 17:37:26,864 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-auth] services are automatically cleaned
+
+2024-11-04 17:37:26,864 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-gen] services are automatically cleaned
+
+2024-11-04 17:37:26,864 WARN namespace : public, [DEFAULT_GROUP@@ruoyi-job] services are automatically cleaned
+
