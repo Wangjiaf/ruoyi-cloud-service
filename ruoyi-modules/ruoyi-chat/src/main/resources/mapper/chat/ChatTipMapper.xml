@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.chat.mapper.ChatTipMapper">
+    
+    <resultMap type="ChatTip" id="ChatTipResult">
+        <result property="id"    column="id"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="chatType"    column="chat_type"    />
+        <result property="userId"    column="user_id"    />
+        <result property="tipFromId"    column="tip_from_id"    />
+        <result property="tipContent"    column="tip_content"    />
+    </resultMap>
+
+    <sql id="selectChatTipVo">
+        select id, create_by, create_time, update_by, update_time, remark, del_flag, chat_type, user_id, tip_from_id, tip_content from chat_tip
+    </sql>
+
+    <select id="selectChatTipList" parameterType="ChatTip" resultMap="ChatTipResult">
+        <include refid="selectChatTipVo"/>
+        <where>  
+            <if test="id != null  and id != ''"> and id = #{id}</if>
+            <if test="createBy != null  and createBy != ''"> and create_by = #{createBy}</if>
+            <if test="createTime != null "> and create_time = #{createTime}</if>
+            <if test="updateBy != null  and updateBy != ''"> and update_by = #{updateBy}</if>
+            <if test="updateTime != null "> and update_time = #{updateTime}</if>
+            <if test="remark != null  and remark != ''"> and remark = #{remark}</if>
+            <if test="delFlag != null  and delFlag != ''"> and del_flag = #{delFlag}</if>
+            <if test="chatType != null  and chatType != ''"> and chat_type = #{chatType}</if>
+            <if test="userId != null "> and user_id = #{userId}</if>
+            <if test="tipFromId != null "> and tip_from_id = #{tipFromId}</if>
+            <if test="tipContent != null  and tipContent != ''"> and tip_content = #{tipContent}</if>
+        </where>
+    </select>
+    
+    <select id="selectChatTipById" parameterType="String" resultMap="ChatTipResult">
+        <include refid="selectChatTipVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertChatTip" parameterType="ChatTip">
+        insert into chat_tip
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+            <if test="remark != null">remark,</if>
+            <if test="delFlag != null">del_flag,</if>
+            <if test="chatType != null and chatType != ''">chat_type,</if>
+            <if test="userId != null">user_id,</if>
+            <if test="tipFromId != null">tip_from_id,</if>
+            <if test="tipContent != null">tip_content,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="delFlag != null">#{delFlag},</if>
+            <if test="chatType != null and chatType != ''">#{chatType},</if>
+            <if test="userId != null">#{userId},</if>
+            <if test="tipFromId != null">#{tipFromId},</if>
+            <if test="tipContent != null">#{tipContent},</if>
+         </trim>
+    </insert>
+
+    <update id="updateChatTip" parameterType="ChatTip">
+        update chat_tip
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="delFlag != null">del_flag = #{delFlag},</if>
+            <if test="chatType != null and chatType != ''">chat_type = #{chatType},</if>
+            <if test="userId != null">user_id = #{userId},</if>
+            <if test="tipFromId != null">tip_from_id = #{tipFromId},</if>
+            <if test="tipContent != null">tip_content = #{tipContent},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteChatTipById" parameterType="String">
+        delete from chat_tip where id = #{id}
+    </delete>
+
+    <delete id="deleteChatTipByIds" parameterType="String">
+        delete from chat_tip where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>

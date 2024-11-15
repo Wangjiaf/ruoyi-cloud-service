@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.chat.mapper.ChatUserMessageMapper">
+    
+    <resultMap type="ChatUserMessage" id="ChatUserMessageResult">
+        <result property="id"    column="id"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="fromUserId"    column="from_user_id"    />
+        <result property="toUserId"    column="to_user_id"    />
+        <result property="messageContent"    column="message_content"    />
+        <result property="revokeFlag"    column="revoke_flag"    />
+        <result property="fromUserDelFlag"    column="from_user_del_flag"    />
+        <result property="toUserDelFlag"    column="to_user_del_flag"    />
+    </resultMap>
+
+    <sql id="selectChatUserMessageVo">
+        select id, create_by, create_time, update_by, update_time, remark, del_flag, from_user_id, to_user_id, message_content, revoke_flag, from_user_del_flag, to_user_del_flag from chat_user_message
+    </sql>
+
+    <select id="selectChatUserMessageList" parameterType="ChatUserMessage" resultMap="ChatUserMessageResult">
+        <include refid="selectChatUserMessageVo"/>
+        <where>  
+            <if test="id != null  and id != ''"> and id = #{id}</if>
+            <if test="createBy != null  and createBy != ''"> and create_by = #{createBy}</if>
+            <if test="createTime != null "> and create_time = #{createTime}</if>
+            <if test="updateBy != null  and updateBy != ''"> and update_by = #{updateBy}</if>
+            <if test="updateTime != null "> and update_time = #{updateTime}</if>
+            <if test="remark != null  and remark != ''"> and remark = #{remark}</if>
+            <if test="delFlag != null  and delFlag != ''"> and del_flag = #{delFlag}</if>
+            <if test="fromUserId != null "> and from_user_id = #{fromUserId}</if>
+            <if test="toUserId != null "> and to_user_id = #{toUserId}</if>
+            <if test="messageContent != null  and messageContent != ''"> and message_content = #{messageContent}</if>
+            <if test="revokeFlag != null  and revokeFlag != ''"> and revoke_flag = #{revokeFlag}</if>
+            <if test="fromUserDelFlag != null  and fromUserDelFlag != ''"> and from_user_del_flag = #{fromUserDelFlag}</if>
+            <if test="toUserDelFlag != null  and toUserDelFlag != ''"> and to_user_del_flag = #{toUserDelFlag}</if>
+        </where>
+    </select>
+    
+    <select id="selectChatUserMessageById" parameterType="String" resultMap="ChatUserMessageResult">
+        <include refid="selectChatUserMessageVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertChatUserMessage" parameterType="ChatUserMessage">
+        insert into chat_user_message
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+            <if test="remark != null">remark,</if>
+            <if test="delFlag != null">del_flag,</if>
+            <if test="fromUserId != null">from_user_id,</if>
+            <if test="toUserId != null">to_user_id,</if>
+            <if test="messageContent != null">message_content,</if>
+            <if test="revokeFlag != null">revoke_flag,</if>
+            <if test="fromUserDelFlag != null">from_user_del_flag,</if>
+            <if test="toUserDelFlag != null">to_user_del_flag,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="delFlag != null">#{delFlag},</if>
+            <if test="fromUserId != null">#{fromUserId},</if>
+            <if test="toUserId != null">#{toUserId},</if>
+            <if test="messageContent != null">#{messageContent},</if>
+            <if test="revokeFlag != null">#{revokeFlag},</if>
+            <if test="fromUserDelFlag != null">#{fromUserDelFlag},</if>
+            <if test="toUserDelFlag != null">#{toUserDelFlag},</if>
+         </trim>
+    </insert>
+
+    <update id="updateChatUserMessage" parameterType="ChatUserMessage">
+        update chat_user_message
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="delFlag != null">del_flag = #{delFlag},</if>
+            <if test="fromUserId != null">from_user_id = #{fromUserId},</if>
+            <if test="toUserId != null">to_user_id = #{toUserId},</if>
+            <if test="messageContent != null">message_content = #{messageContent},</if>
+            <if test="revokeFlag != null">revoke_flag = #{revokeFlag},</if>
+            <if test="fromUserDelFlag != null">from_user_del_flag = #{fromUserDelFlag},</if>
+            <if test="toUserDelFlag != null">to_user_del_flag = #{toUserDelFlag},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteChatUserMessageById" parameterType="String">
+        delete from chat_user_message where id = #{id}
+    </delete>
+
+    <delete id="deleteChatUserMessageByIds" parameterType="String">
+        delete from chat_user_message where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>
