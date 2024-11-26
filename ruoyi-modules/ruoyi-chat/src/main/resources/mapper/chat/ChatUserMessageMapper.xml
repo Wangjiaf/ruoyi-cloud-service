@@ -111,4 +111,34 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             #{id}
         </foreach>
     </delete>
+
+    <select id="selectChatUserMessageVoList" parameterType="ChatUserMessageVo" resultType="ChatUserMessageVo">
+        select a.id, a.create_by as "createBy", a.create_time as "createTime", a.update_by as "updateBy", a.update_time as "updateTime", a.remark, a.del_flag as "delFlag", a.from_user_id as "fromUserId",
+        a.to_user_id as "toUserId", a.message_content as "messageContent", a.revoke_flag as "revokeFlag", a.from_user_del_flag as "fromUserDelFlag", a.to_user_del_flag as "toUserDelFlag",
+        a.from_user_id as "fromUser.userId", b.dept_id as "fromUser.deptId", b.user_name as "fromUser.userName", b.nick_name as "fromUser.nickName", b.email as "fromUser.email", b.avatar as "fromUser.avatar", b.phonenumber as "fromUser.phonenumber", b.sex as "fromUser.sex",
+        b.status as "fromUser.status", b.del_flag as "fromUser.delFlag", b.login_ip as "fromUser.loginIp", b.login_date as "fromUser.loginDate", b.create_by as "fromUser.createBy", b.create_time as "fromUser.createTime", b.remark as "fromUser.remark",
+        a.to_user_id as "toUser.userId", c.dept_id as "toUser.deptId", c.user_name as "toUser.userName", c.nick_name as "toUser.nickName", c.email as "toUser.email", c.avatar as "toUser.avatar", c.phonenumber as "toUser.phonenumber", c.sex as "toUser.sex",
+        c.status as "toUser.status", c.del_flag as "toUser.delFlag", c.login_ip as "toUser.loginIp", c.login_date as "toUser.loginDate", c.create_by as "toUser.createBy", c.create_time as "toUser.createTime", c.remark as "toUser.remark"
+        from chat_user_message a
+        left join sys_user b on a.from_user_id = b.user_id
+        left join sys_user c on a.to_user_id = c.user_id
+        <where>
+            <if test="id != null  and id != ''"> and a.id = #{id}</if>
+            <if test="createBy != null  and createBy != ''"> and a.create_by = #{createBy}</if>
+            <if test="createTime != null "> and a.create_time = #{createTime}</if>
+            <if test="updateBy != null  and updateBy != ''"> and a.update_by = #{updateBy}</if>
+            <if test="updateTime != null "> and a.update_time = #{updateTime}</if>
+            <if test="remark != null  and remark != ''"> and a.remark = #{remark}</if>
+            <if test="delFlag != null  and delFlag != ''"> and a.del_flag = #{delFlag}</if>
+            <if test="fromUserId != null "> and a.from_user_id = #{fromUserId}</if>
+            <if test="toUserId != null "> and a.to_user_id = #{toUserId}</if>
+            <if test="messageContent != null  and messageContent != ''"> and a.message_content = #{messageContent}</if>
+            <if test="revokeFlag != null  and revokeFlag != ''"> and a.revoke_flag = #{revokeFlag}</if>
+            <if test="fromUserDelFlag != null  and fromUserDelFlag != ''"> and a.from_user_del_flag = #{fromUserDelFlag}</if>
+            <if test="toUserDelFlag != null  and toUserDelFlag != ''"> and a.to_user_del_flag = #{toUserDelFlag}</if>
+            <if test="params.loginUserId != null and params.loginUserId != '' and params.relationUserId != null and params.relationUserId != ''"> and (a.from_user_id = #{params.loginUserId} and a.to_user_id = #{params.relationUserId} or a.from_user_id = #{params.relationUserId} and a.to_user_id = #{params.loginUserId})</if>
+            <if test="params.loginUserId == null or params.loginUserId == '' or params.relationUserId == null or params.relationUserId == ''"> and 1 = 2</if>
+        </where>
+    </select>
+
 </mapper>

@@ -2,6 +2,7 @@ package com.ruoyi.chat.service;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatUserMessage;
+import com.ruoyi.chat.vo.ChatUserMessageVo;
 
 /**
  * 好友聊天消息Service接口
@@ -58,4 +59,9 @@ public interface IChatUserMessageService
      * @return 结果
      */
     public int deleteChatUserMessageById(String id);
+
+    public List<ChatUserMessageVo> selectChatUserMessageVoList(ChatUserMessageVo chatUserMessageVo);
+
+    public int sendChatUserMessage(ChatUserMessage chatUserMessage);
+
 }

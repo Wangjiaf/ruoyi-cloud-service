@@ -3,6 +3,8 @@ package com.ruoyi.chat.controller;
 import java.util.List;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
+
+import com.ruoyi.chat.vo.ChatTipVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,6 +46,14 @@ public class ChatTipController extends BaseController
     {
         startPage();
         List<ChatTip> list = chatTipService.selectChatTipList(chatTip);
+        return getDataTable(list);
+    }
+
+    @GetMapping("/listVo")
+    public TableDataInfo listVo(ChatTipVo chatTipVo)
+    {
+        startPage();
+        List<ChatTipVo> list = chatTipService.selectChatTipVoList(chatTipVo);
         return getDataTable(list);
     }
 
@@ -102,4 +112,12 @@ public class ChatTipController extends BaseController
     {
         return toAjax(chatTipService.deleteChatTipByIds(ids));
     }
+
+    @GetMapping(value = "/resetChatTipCount/{id}")
+    @Log(title = "重置消息", businessType = BusinessType.UPDATE)
+    public AjaxResult resetChatTipCount(@PathVariable("id") String id)
+    {
+        return toAjax(chatTipService.resetChatTipCount(id));
+    }
+
 }

@@ -3,6 +3,8 @@ package com.ruoyi.chat.controller;
 import java.util.List;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
+
+import com.ruoyi.chat.vo.ChatUserMessageVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,6 +46,14 @@ public class ChatUserMessageController extends BaseController
     {
         startPage();
         List<ChatUserMessage> list = chatUserMessageService.selectChatUserMessageList(chatUserMessage);
+        return getDataTable(list);
+    }
+
+    @GetMapping("/listVo")
+    public TableDataInfo listVo(ChatUserMessageVo chatUserMessageVo)
+    {
+        startPage();
+        List<ChatUserMessageVo> list = chatUserMessageService.selectChatUserMessageVoList(chatUserMessageVo);
         return getDataTable(list);
     }
 
@@ -102,4 +112,12 @@ public class ChatUserMessageController extends BaseController
     {
         return toAjax(chatUserMessageService.deleteChatUserMessageByIds(ids));
     }
+
+    @Log(title = "向好友发送消息", businessType = BusinessType.INSERT)
+    @PostMapping("/sendChatUserMessage")
+    public AjaxResult sendChatUserMessage(@RequestBody ChatUserMessage chatUserMessage)
+    {
+        return toAjax(chatUserMessageService.sendChatUserMessage(chatUserMessage));
+    }
+
 }

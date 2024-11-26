@@ -2,6 +2,7 @@ package com.ruoyi.chat.service;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatUserRelation;
+import com.ruoyi.chat.vo.ChatUserRelationVo;
 
 /**
  * 好友关系Service接口
@@ -26,6 +27,8 @@ public interface IChatUserRelationService
      * @return 好友关系集合
      */
     public List<ChatUserRelation> selectChatUserRelationList(ChatUserRelation chatUserRelation);
+
+    public List<ChatUserRelationVo> selectChatUserRelationVoList(ChatUserRelationVo chatUserRelationvo);
 
     /**
      * 新增好友关系

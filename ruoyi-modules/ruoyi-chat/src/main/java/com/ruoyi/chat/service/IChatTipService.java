@@ -2,6 +2,7 @@ package com.ruoyi.chat.service;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatTip;
+import com.ruoyi.chat.vo.ChatTipVo;
 
 /**
  * 消息提示Service接口
@@ -58,4 +59,9 @@ public interface IChatTipService
      * @return 结果
      */
     public int deleteChatTipById(String id);
+
+    public List<ChatTipVo> selectChatTipVoList(ChatTipVo chatTipVo);
+
+    public int resetChatTipCount(String id);
+
 }

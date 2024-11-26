@@ -1,7 +1,10 @@
 package com.ruoyi.chat.mapper;
 
+import java.util.Date;
 import java.util.List;
 import com.ruoyi.chat.domain.ChatTip;
+import com.ruoyi.chat.vo.ChatTipVo;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * 消息提示Mapper接口
@@ -58,4 +61,11 @@ public interface ChatTipMapper
      * @return 结果
      */
     public int deleteChatTipByIds(String[] ids);
+
+    public List<ChatTipVo> selectChatTipVoList(ChatTipVo chatTipVo);
+
+    public ChatTip selectChatTipBy_userId_tipFromId(@Param("chatType") String chatType, @Param("userId") Long userId, @Param("tipFromId") Long tipFromId);
+
+    public int resetChatTipCount(@Param("id") String id, @Param("updateBy") Long updateBy,  @Param("updateTime") Date updateTime);
+
 }

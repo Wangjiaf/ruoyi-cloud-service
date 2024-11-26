@@ -16,10 +16,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         <result property="userId"    column="user_id"    />
         <result property="tipFromId"    column="tip_from_id"    />
         <result property="tipContent"    column="tip_content"    />
+        <result property="unReadCount"    column="un_read_count"    />
     </resultMap>
 
     <sql id="selectChatTipVo">
-        select id, create_by, create_time, update_by, update_time, remark, del_flag, chat_type, user_id, tip_from_id, tip_content from chat_tip
+        select id, create_by, create_time, update_by, update_time, remark, del_flag, chat_type, user_id, tip_from_id, tip_content, un_read_count from chat_tip
     </sql>
 
     <select id="selectChatTipList" parameterType="ChatTip" resultMap="ChatTipResult">
@@ -36,6 +37,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="userId != null "> and user_id = #{userId}</if>
             <if test="tipFromId != null "> and tip_from_id = #{tipFromId}</if>
             <if test="tipContent != null  and tipContent != ''"> and tip_content = #{tipContent}</if>
+            <if test="unReadCount != null  and unReadCount != ''"> and un_read_count = #{unReadCount}</if>
         </where>
     </select>
     
@@ -58,6 +60,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="userId != null">user_id,</if>
             <if test="tipFromId != null">tip_from_id,</if>
             <if test="tipContent != null">tip_content,</if>
+            <if test="unReadCount != null">un_read_count,</if>
          </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
             <if test="id != null">#{id},</if>
@@ -71,6 +74,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="userId != null">#{userId},</if>
             <if test="tipFromId != null">#{tipFromId},</if>
             <if test="tipContent != null">#{tipContent},</if>
+            <if test="unReadCount != null">#{unReadCount},</if>
          </trim>
     </insert>
 
@@ -87,6 +91,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             <if test="userId != null">user_id = #{userId},</if>
             <if test="tipFromId != null">tip_from_id = #{tipFromId},</if>
             <if test="tipContent != null">tip_content = #{tipContent},</if>
+            <if test="unReadCount != null">un_read_count = #{unReadCount},</if>
         </trim>
         where id = #{id}
     </update>
@@ -101,4 +106,40 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             #{id}
         </foreach>
     </delete>
+
+    <select id="selectChatTipVoList" parameterType="ChatTipVo" resultType="ChatTipVo">
+        select a.id, a.create_by as "createBy", a.create_time as "createTime", a.update_by as "updateBy", a.update_time as "updateTime", a.remark, a.del_flag as "delFlag",
+        a.chat_type as "chatType", a.user_id as "userId", a.tip_from_id as "tipFromId", a.tip_content as "tipContent", a.un_read_count as "unReadCount",
+        b.id as "tipFromChatUserRelation.id", b.create_by as "tipFromChatUserRelation.createBy", b.create_time as "tipFromChatUserRelation.createTime", b.update_by as "tipFromChatUserRelation.updateBy", b.update_time as "tipFromChatUserRelation.updateTime",
+        b.remark as "tipFromChatUserRelation.remark", b.del_flag as "tipFromChatUserRelation.delFlag", b.user_id as "tipFromChatUserRelation.userId", b.relation_user_id as "tipFromChatUserRelation.relationUserId", b.relation_user_remark as "tipFromChatUserRelation.relationUserRemark",
+        c.user_id as "tipFromUser.userId", c.dept_id as "tipFromUser.deptId", c.user_name as "tipFromUser.userName", c.nick_name as "tipFromUser.nickName", c.email as "tipFromUser.email", c.avatar as "tipFromUser.avatar", c.phonenumber as "tipFromUser.phonenumber", c.sex as "tipFromUser.sex",
+        c.status as "tipFromUser.status", c.del_flag as "tipFromUser.delFlag", c.login_ip as "tipFromUser.loginIp", c.login_date as "tipFromUser.loginDate", c.create_by as "tipFromUser.createBy", c.create_time as "tipFromUser.createTime", c.remark as "tipFromUser.remark"
+        from chat_tip a
+        left join chat_user_relation b on a.user_id = b.user_id and a.tip_from_id = b.relation_user_id
+        left join sys_user c on a.tip_from_id = c.user_id
+        <where>
+            <if test="id != null  and id != ''"> and a.id = #{id}</if>
+            <if test="createBy != null  and createBy != ''"> and a.create_by = #{createBy}</if>
+            <if test="createTime != null "> and a.create_time = #{createTime}</if>
+            <if test="updateBy != null  and updateBy != ''"> and a.update_by = #{updateBy}</if>
+            <if test="updateTime != null "> and a.update_time = #{updateTime}</if>
+            <if test="remark != null  and remark != ''"> and a.remark = #{remark}</if>
+            <if test="delFlag != null  and delFlag != ''"> and a.del_flag = #{delFlag}</if>
+            <if test="chatType != null  and chatType != ''"> and a.chat_type = #{chatType}</if>
+            <if test="userId != null "> and a.user_id = #{userId}</if>
+            <if test="tipFromId != null "> and a.tip_from_id = #{tipFromId}</if>
+            <if test="tipContent != null  and tipContent != ''"> and a.tip_content = #{tipContent}</if>
+            <if test="unReadCount != null  and unReadCount != ''"> and a.un_read_count = #{unReadCount}</if>
+        </where>
+    </select>
+
+    <select id="selectChatTipBy_userId_tipFromId" resultMap="ChatTipResult">
+        <include refid="selectChatTipVo"/>
+        where chat_type = #{chatType} and user_id = #{userId} and tip_from_id = #{tipFromId}
+    </select>
+
+    <update id="resetChatTipCount">
+        update chat_tip set un_read_count = 0, update_by = #{updateBy}, update_time = #{updateTime} where id = #{id}
+    </update>
+
 </mapper>

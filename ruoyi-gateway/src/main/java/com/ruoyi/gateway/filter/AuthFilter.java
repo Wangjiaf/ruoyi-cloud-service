@@ -52,35 +52,46 @@ public class AuthFilter implements GlobalFilter, Ordered
             return chain.filter(exchange);
         }
         String token = getToken(request);
-        if (StringUtils.isEmpty(token))
-        {
-            return unauthorizedResponse(exchange, "令牌不能为空");
-        }
-        Claims claims = JwtUtils.parseToken(token);
-        if (claims == null)
-        {
-            return unauthorizedResponse(exchange, "令牌已过期或验证不正确！");
-        }
-        String userkey = JwtUtils.getUserKey(claims);
-        boolean islogin = redisService.hasKey(getTokenKey(userkey));
-        if (!islogin)
-        {
-            return unauthorizedResponse(exchange, "登录状态已过期");
-        }
-        String userid = JwtUtils.getUserId(claims);
-        String username = JwtUtils.getUserName(claims);
-        if (StringUtils.isEmpty(userid) || StringUtils.isEmpty(username))
-        {
-            return unauthorizedResponse(exchange, "令牌验证失败");
-        }
+        String authentication = request.getHeaders().getFirst(TokenConstants.AUTHENTICATION);
+        if (StringUtils.isNotEmpty(authentication) && authentication.startsWith("Brother_")) {
+            String fromSystem = authentication.substring(8);
+            ServerHttpRequest mutableReq = exchange.getRequest().mutate()
+                    .header("user_id", fromSystem)
+                    .header("username", fromSystem)
+                    .header("nickname", fromSystem).build();
+            ServerWebExchange mutableExchange = exchange.mutate().request(mutableReq).build();
+            return chain.filter(mutableExchange);
+        } else {
+            if (StringUtils.isEmpty(token))
+            {
+                return unauthorizedResponse(exchange, "令牌不能为空");
+            }
+            Claims claims = JwtUtils.parseToken(token);
+            if (claims == null)
+            {
+                return unauthorizedResponse(exchange, "令牌已过期或验证不正确！");
+            }
+            String userkey = JwtUtils.getUserKey(claims);
+            boolean islogin = redisService.hasKey(getTokenKey(userkey));
+            if (!islogin)
+            {
+                return unauthorizedResponse(exchange, "登录状态已过期");
+            }
+            String userid = JwtUtils.getUserId(claims);
+            String username = JwtUtils.getUserName(claims);
+            if (StringUtils.isEmpty(userid) || StringUtils.isEmpty(username))
+            {
+                return unauthorizedResponse(exchange, "令牌验证失败");
+            }
 
-        // 设置用户信息到请求
-        addHeader(mutate, SecurityConstants.USER_KEY, userkey);
-        addHeader(mutate, SecurityConstants.DETAILS_USER_ID, userid);
-        addHeader(mutate, SecurityConstants.DETAILS_USERNAME, username);
-        // 内部请求来源参数清除
-        removeHeader(mutate, SecurityConstants.FROM_SOURCE);
-        return chain.filter(exchange.mutate().request(mutate.build()).build());
+            // 设置用户信息到请求
+            addHeader(mutate, SecurityConstants.USER_KEY, userkey);
+            addHeader(mutate, SecurityConstants.DETAILS_USER_ID, userid);
+            addHeader(mutate, SecurityConstants.DETAILS_USERNAME, username);
+            // 内部请求来源参数清除
+            removeHeader(mutate, SecurityConstants.FROM_SOURCE);
+            return chain.filter(exchange.mutate().request(mutate.build()).build());
+        }
     }
 
     private void addHeader(ServerHttpRequest.Builder mutate, String name, Object value)

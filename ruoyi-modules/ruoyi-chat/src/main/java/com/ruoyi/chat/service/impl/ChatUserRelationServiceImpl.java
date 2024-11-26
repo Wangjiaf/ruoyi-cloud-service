@@ -1,6 +1,8 @@
 package com.ruoyi.chat.service.impl;
 
 import java.util.List;
+
+import com.ruoyi.chat.vo.ChatUserRelationVo;
 import com.ruoyi.common.core.utils.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -42,6 +44,12 @@ public class ChatUserRelationServiceImpl implements IChatUserRelationService
     public List<ChatUserRelation> selectChatUserRelationList(ChatUserRelation chatUserRelation)
     {
         return chatUserRelationMapper.selectChatUserRelationList(chatUserRelation);
+    }
+
+    @Override
+    public List<ChatUserRelationVo> selectChatUserRelationVoList(ChatUserRelationVo chatUserRelationvo)
+    {
+        return chatUserRelationMapper.selectChatUserRelationVoList(chatUserRelationvo);
     }
 
     /**

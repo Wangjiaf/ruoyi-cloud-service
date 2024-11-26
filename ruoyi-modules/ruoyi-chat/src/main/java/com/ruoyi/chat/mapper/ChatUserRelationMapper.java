@@ -2,6 +2,7 @@ package com.ruoyi.chat.mapper;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatUserRelation;
+import com.ruoyi.chat.vo.ChatUserRelationVo;
 
 /**
  * 好友关系Mapper接口
@@ -58,4 +59,7 @@ public interface ChatUserRelationMapper
      * @return 结果
      */
     public int deleteChatUserRelationByIds(String[] ids);
+
+    public List<ChatUserRelationVo> selectChatUserRelationVoList(ChatUserRelationVo chatUserRelationVo);
+
 }

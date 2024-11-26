@@ -1,7 +1,11 @@
 package com.ruoyi.chat.service.impl;
 
 import java.util.List;
+
+import com.ruoyi.chat.utils.ChatTipUtils;
+import com.ruoyi.chat.vo.ChatTipVo;
 import com.ruoyi.common.core.utils.DateUtils;
+import com.ruoyi.common.security.utils.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.ruoyi.chat.mapper.ChatTipMapper;
@@ -93,4 +97,19 @@ public class ChatTipServiceImpl implements IChatTipService
     {
         return chatTipMapper.deleteChatTipById(id);
     }
+
+    @Override
+    public List<ChatTipVo> selectChatTipVoList(ChatTipVo chatTipVo) {
+        List<ChatTipVo> list = chatTipMapper.selectChatTipVoList(chatTipVo);
+        list.forEach(item -> {
+            item.setTipContent(ChatTipUtils.fullTipContent(item.getTipContent()));
+        });
+        return list;
+    }
+
+    @Override
+    public int resetChatTipCount(String id) {
+        return chatTipMapper.resetChatTipCount(id, SecurityUtils.getUserId(), DateUtils.getNowDate());
+    }
+
 }

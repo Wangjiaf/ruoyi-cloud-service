@@ -37,6 +37,10 @@ public class ChatTip extends BaseEntity
     @Excel(name = "提示内容")
     private String tipContent;
 
+    /** 未读消息数量 */
+    @Excel(name = "未读消息数量")
+    private Integer unReadCount;
+
     public void setId(String id) 
     {
         this.id = id;
@@ -91,6 +95,13 @@ public class ChatTip extends BaseEntity
     {
         return tipContent;
     }
+    public void setUnReadCount(Integer unReadCount) {
+        this.unReadCount = unReadCount;
+    }
+
+    public Integer getUnReadCount() {
+        return unReadCount;
+    }
 
     @Override
     public String toString() {
@@ -106,6 +117,7 @@ public class ChatTip extends BaseEntity
             .append("userId", getUserId())
             .append("tipFromId", getTipFromId())
             .append("tipContent", getTipContent())
+            .append("unReadCount", getUnReadCount())
             .toString();
     }
 }

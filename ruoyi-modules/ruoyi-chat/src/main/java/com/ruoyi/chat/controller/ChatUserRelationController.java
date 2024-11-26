@@ -3,6 +3,8 @@ package com.ruoyi.chat.controller;
 import java.util.List;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
+
+import com.ruoyi.chat.vo.ChatUserRelationVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -44,6 +46,14 @@ public class ChatUserRelationController extends BaseController
     {
         startPage();
         List<ChatUserRelation> list = chatUserRelationService.selectChatUserRelationList(chatUserRelation);
+        return getDataTable(list);
+    }
+
+    @GetMapping("/listVo")
+    public TableDataInfo listVo(ChatUserRelationVo chatUserRelationVo)
+    {
+        startPage();
+        List<ChatUserRelationVo> list = chatUserRelationService.selectChatUserRelationVoList(chatUserRelationVo);
         return getDataTable(list);
     }
 

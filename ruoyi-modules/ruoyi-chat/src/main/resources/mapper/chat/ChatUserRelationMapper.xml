@@ -96,4 +96,28 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
             #{id}
         </foreach>
     </delete>
+
+    <select id="selectChatUserRelationVoList" parameterType="ChatUserRelationVo" resultType="ChatUserRelationVo">
+        select a.id, a.create_by as "createBy", a.create_time as "createTime", a.update_by as "updateBy", a.update_time as "updateTime", a.remark, a.del_flag as "delFlag", a.user_id as "userId", a.relation_user_id as "relationUserId", a.relation_user_remark as "relationUserRemark",
+        a.user_id as "user.userId", b.dept_id as "user.deptId", b.user_name as "user.userName", b.nick_name as "user.nickName", b.email as "user.email", b.avatar as "user.avatar", b.phonenumber as "user.phonenumber", b.sex as "user.sex",
+        b.status as "user.status", b.del_flag as "user.delFlag", b.login_ip as "user.loginIp", b.login_date as "user.loginDate", b.create_by as "user.createBy", b.create_time as "user.createTime", b.remark as "user.remark",
+        a.relation_user_id as "relationUser.userId", c.dept_id as "relationUser.deptId", c.user_name as "relationUser.userName", c.nick_name as "relationUser.nickName", c.email as "relationUser.email", c.avatar as "relationUser.avatar", c.phonenumber as "relationUser.phonenumber", c.sex as "relationUser.sex",
+        c.status as "relationUser.status", c.del_flag as "relationUser.delFlag", c.login_ip as "relationUser.loginIp", c.login_date as "relationUser.loginDate", c.create_by as "relationUser.createBy", c.create_time as "relationUser.createTime", c.remark as "relationUser.remark"
+        from chat_user_relation a
+        left join sys_user b on a.user_id = b.user_id
+        left join sys_user c on a.relation_user_id = c.user_id
+        <where>
+            <if test="id != null  and id != ''"> and a.id = #{id}</if>
+            <if test="createBy != null  and createBy != ''"> and a.create_by = #{createBy}</if>
+            <if test="createTime != null "> and a.create_time = #{createTime}</if>
+            <if test="updateBy != null  and updateBy != ''"> and a.update_by = #{updateBy}</if>
+            <if test="updateTime != null "> and a.update_time = #{updateTime}</if>
+            <if test="remark != null  and remark != ''"> and a.remark = #{remark}</if>
+            <if test="delFlag != null  and delFlag != ''"> and a.del_flag = #{delFlag}</if>
+            <if test="userId != null "> and a.user_id = #{userId}</if>
+            <if test="relationUserId != null "> and a.relation_user_id = #{relationUserId}</if>
+            <if test="relationUserRemark != null  and relationUserRemark != ''"> and a.relation_user_remark like '%' || #{relationUserRemark} || '%'</if>
+        </where>
+    </select>
+
 </mapper>
