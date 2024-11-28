@@ -2,13 +2,18 @@ package com.ruoyi.chat.service.impl;
 
 import java.util.List;
 
+import com.ruoyi.chat.dto.ChatUserRelationDto;
 import com.ruoyi.chat.vo.ChatUserRelationVo;
 import com.ruoyi.common.core.utils.DateUtils;
+import com.ruoyi.common.core.utils.uuid.SnowflakeUtils;
+import com.ruoyi.common.security.utils.SecurityUtils;
+import com.ruoyi.common.security.utils.UserUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.ruoyi.chat.mapper.ChatUserRelationMapper;
 import com.ruoyi.chat.domain.ChatUserRelation;
 import com.ruoyi.chat.service.IChatUserRelationService;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 好友关系Service业务层处理
@@ -101,4 +106,24 @@ public class ChatUserRelationServiceImpl implements IChatUserRelationService
     {
         return chatUserRelationMapper.deleteChatUserRelationById(id);
     }
+
+    @Override
+    @Transactional
+    public int addFriend(ChatUserRelationDto chatUserRelationDto) {
+        Long myUserId = SecurityUtils.getUserId();
+        Long friendUserId = UserUtils.getUserByUsername(chatUserRelationDto.getFriendUserName()).getUserId();
+        ChatUserRelation chatUserRelation = new ChatUserRelation();
+        chatUserRelation.setCreateBy(String.valueOf(myUserId));
+        chatUserRelation.setCreateTime(DateUtils.getNowDate());
+        chatUserRelation.setUserId(myUserId);
+        chatUserRelation.setRelationUserId(friendUserId);
+        chatUserRelation.setId(String.valueOf(SnowflakeUtils.nextId()));
+        chatUserRelationMapper.insertChatUserRelation(chatUserRelation);
+        chatUserRelation.setUserId(friendUserId);
+        chatUserRelation.setRelationUserId(myUserId);
+        chatUserRelation.setId(String.valueOf(SnowflakeUtils.nextId()));
+        chatUserRelationMapper.insertChatUserRelation(chatUserRelation);
+        return 1;
+    }
+
 }

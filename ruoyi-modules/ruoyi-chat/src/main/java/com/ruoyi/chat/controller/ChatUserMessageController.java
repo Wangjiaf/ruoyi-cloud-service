@@ -5,6 +5,7 @@ import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
 
 import com.ruoyi.chat.vo.ChatUserMessageVo;
+import com.ruoyi.common.core.annotation.RepeatSubmit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -114,6 +115,7 @@ public class ChatUserMessageController extends BaseController
     }
 
     @Log(title = "向好友发送消息", businessType = BusinessType.INSERT)
+    @RepeatSubmit(interval = 3000, message = "操作过于频繁，请勿重复点击")
     @PostMapping("/sendChatUserMessage")
     public AjaxResult sendChatUserMessage(@RequestBody ChatUserMessage chatUserMessage)
     {

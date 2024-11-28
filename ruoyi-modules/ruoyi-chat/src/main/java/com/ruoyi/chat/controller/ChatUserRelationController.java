@@ -4,6 +4,7 @@ import java.util.List;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
 
+import com.ruoyi.chat.dto.ChatUserRelationDto;
 import com.ruoyi.chat.vo.ChatUserRelationVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -112,4 +113,12 @@ public class ChatUserRelationController extends BaseController
     {
         return toAjax(chatUserRelationService.deleteChatUserRelationByIds(ids));
     }
+
+    @Log(title = "添加好友", businessType = BusinessType.INSERT)
+    @PostMapping("/addFriend")
+    public AjaxResult addFriend(@RequestBody ChatUserRelationDto chatUserRelationDto)
+    {
+        return toAjax(chatUserRelationService.addFriend(chatUserRelationDto));
+    }
+
 }

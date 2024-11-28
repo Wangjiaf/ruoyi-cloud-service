@@ -33,22 +33,12 @@ public class ChatUserMessageSocket {
 
     @OnMessage
     public void onMessage(String data) throws IOException {
-        JSONObject jo = JSONObject.parseObject(data);
-        sendMessageTo(jo.get("message").toString(), jo.get("to").toString());
+        System.out.println("ChatUserMessageSocket:" + data);
     }
 
     @OnError
     public void onError(Session session, Throwable error) {
         error.printStackTrace();
-    }
-
-    /** 发送个人消息 */
-    public void sendMessageTo(String message, String to) throws IOException {
-        for (ChatUserMessageSocket item : clients.values()) {
-            if (item.userId.equals(to)) {
-                item.session.getAsyncRemote().sendText(message);
-            }
-        }
     }
 
     public static Map<String, ChatUserMessageSocket> getClients() {

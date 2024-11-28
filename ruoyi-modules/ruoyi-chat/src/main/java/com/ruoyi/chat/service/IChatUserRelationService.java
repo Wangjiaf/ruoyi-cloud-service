@@ -2,6 +2,7 @@ package com.ruoyi.chat.service;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatUserRelation;
+import com.ruoyi.chat.dto.ChatUserRelationDto;
 import com.ruoyi.chat.vo.ChatUserRelationVo;
 
 /**
@@ -61,4 +62,7 @@ public interface IChatUserRelationService
      * @return 结果
      */
     public int deleteChatUserRelationById(String id);
+
+    public int addFriend(ChatUserRelationDto chatUserRelationDto);
+
 }

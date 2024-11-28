@@ -3,7 +3,9 @@ package com.ruoyi.chat.service.impl;
 import java.util.List;
 
 import com.ruoyi.chat.domain.ChatTip;
+import com.ruoyi.chat.domain.ChatUserRelation;
 import com.ruoyi.chat.mapper.ChatTipMapper;
+import com.ruoyi.chat.mapper.ChatUserRelationMapper;
 import com.ruoyi.chat.utils.ChatTipUtils;
 import com.ruoyi.chat.utils.ChatUserMessageUtils;
 import com.ruoyi.chat.vo.ChatUserMessageVo;
@@ -11,6 +13,7 @@ import com.ruoyi.common.core.utils.DateUtils;
 import com.ruoyi.common.core.utils.StringUtils;
 import com.ruoyi.common.core.utils.uuid.SnowflakeUtils;
 import com.ruoyi.common.security.utils.SecurityUtils;
+import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.ruoyi.chat.mapper.ChatUserMessageMapper;
@@ -32,6 +35,9 @@ public class ChatUserMessageServiceImpl implements IChatUserMessageService
 
     @Autowired
     private ChatTipMapper chatTipMapper;
+
+    @Autowired
+    private ChatUserRelationMapper chatUserRelationMapper;
 
     /**
      * 查询好友聊天消息
@@ -117,18 +123,51 @@ public class ChatUserMessageServiceImpl implements IChatUserMessageService
     @Override
     @Transactional
     public int sendChatUserMessage(ChatUserMessage chatUserMessage) {
+        // 校验对方是否为好友
+        valid(chatUserMessage);
+        // 聊天记录内容存储
         chatUserMessage.setId(String.valueOf(SnowflakeUtils.nextId()));
         chatUserMessage.setCreateTime(DateUtils.getNowDate());
         chatUserMessage.setCreateBy(String.valueOf(SecurityUtils.getUserId()));
         chatUserMessageMapper.insertChatUserMessage(chatUserMessage);
-        ChatTip chatTip = chatTipMapper.selectChatTipBy_userId_tipFromId("P2P", chatUserMessage.getToUserId(), chatUserMessage.getFromUserId());
+        // 双方新增或更新消息提示数据
+        ChatTip toChatTip = saveChatTip(chatUserMessage, chatUserMessage.getToUserId(), chatUserMessage.getFromUserId());
+        ChatTip fromChatTip = saveChatTip(chatUserMessage, chatUserMessage.getFromUserId(), chatUserMessage.getToUserId());
+        // 消息提示列表推送给对方
+        ChatTipUtils.socketSendMessage(chatUserMessage.getToUserId() + "", "0");
+        // 对话框列表推送给对方
+        boolean onChatWindowFlag = ChatUserMessageUtils.socketSendMessage(chatUserMessage.getToUserId() + "", "0");
+        // 对方若正在对话框界面，则标记消息为已读
+        if (onChatWindowFlag) {
+            chatTipMapper.resetChatTipCount(toChatTip.getId(), Long.parseLong(chatUserMessage.getCreateBy()), chatUserMessage.getCreateTime());
+        }
+        // 己方消息直接标记为已读
+        chatTipMapper.resetChatTipCount(fromChatTip.getId(), Long.parseLong(chatUserMessage.getCreateBy()), chatUserMessage.getCreateTime());
+        return 1;
+    }
+
+    private void valid(ChatUserMessage chatUserMessage) {
+        // 校验对方是否为好友
+        ChatUserRelation queryChatUserRelation = new ChatUserRelation();
+        queryChatUserRelation.setUserId(chatUserMessage.getFromUserId());
+        queryChatUserRelation.setRelationUserId(chatUserMessage.getToUserId());
+        queryChatUserRelation.setDelFlag("0");
+        List<ChatUserRelation> validChatUserRelationList = chatUserRelationMapper.selectChatUserRelationList(queryChatUserRelation);
+        if (CollectionUtils.isEmpty(validChatUserRelationList)) {
+            throw new RuntimeException("对方已不是你的好友，无法发送消息");
+        }
+    }
+
+    private ChatTip saveChatTip(ChatUserMessage chatUserMessage, Long userIdLeft, Long userIdRight) {
+        // 封装消息提示数据，表里有则更新，没有则新增，保证每人与对方最多1条数据
+        ChatTip chatTip = chatTipMapper.selectChatTipBy_userId_tipFromId("P2P", userIdLeft, userIdRight);
         if (null == chatTip) {
             chatTip = new ChatTip();
             chatTip.setCreateTime(chatUserMessage.getCreateTime());
             chatTip.setCreateBy(chatUserMessage.getCreateBy());
             chatTip.setChatType("P2P");
-            chatTip.setUserId(chatUserMessage.getToUserId());
-            chatTip.setTipFromId(chatUserMessage.getFromUserId());
+            chatTip.setUserId(userIdLeft);
+            chatTip.setTipFromId(userIdRight);
             chatTip.setUnReadCount(0);
         }
         chatTip.setTipContent(ChatTipUtils.cutTipContent(chatUserMessage.getMessageContent()));
@@ -142,13 +181,7 @@ public class ChatUserMessageServiceImpl implements IChatUserMessageService
             chatTip.setUpdateBy(chatUserMessage.getCreateBy());
             chatTipMapper.updateChatTip(chatTip);
         }
-        ChatTipUtils.socketSendMessage(chatUserMessage.getToUserId() + "", "0");
-        boolean onChatWindowFlag = ChatUserMessageUtils.socketSendMessage(chatUserMessage.getToUserId() + "", "0");
-        // 消息接收方若正在对话框界面，则标记消息为已读
-        if (onChatWindowFlag) {
-            chatTipMapper.resetChatTipCount(chatTip.getId(), Long.parseLong(chatUserMessage.getCreateBy()), chatUserMessage.getCreateTime());
-        }
-        return 1;
+        return chatTip;
     }
 
 }
