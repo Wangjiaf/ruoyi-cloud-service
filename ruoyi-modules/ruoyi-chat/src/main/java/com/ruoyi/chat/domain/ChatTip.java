@@ -1,5 +1,7 @@
 package com.ruoyi.chat.domain;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.ruoyi.common.core.annotation.Excel;
@@ -27,10 +29,12 @@ public class ChatTip extends BaseEntity
 
     /** 用户ID */
     @Excel(name = "用户ID")
+    @JsonSerialize(using= ToStringSerializer.class)
     private Long userId;
 
     /** 好友ID/群ID */
     @Excel(name = "好友ID/群ID")
+    @JsonSerialize(using= ToStringSerializer.class)
     private Long tipFromId;
 
     /** 提示内容 */

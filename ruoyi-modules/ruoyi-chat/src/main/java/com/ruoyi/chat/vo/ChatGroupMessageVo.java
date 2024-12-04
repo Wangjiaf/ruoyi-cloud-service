@@ -2,11 +2,12 @@ package com.ruoyi.chat.vo;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
+import com.ruoyi.chat.domain.ChatUserRelation;
 import com.ruoyi.common.core.annotation.Excel;
 import com.ruoyi.common.core.web.domain.BaseEntity;
 import com.ruoyi.system.api.domain.SysUser;
 
-public class ChatUserMessageVo extends BaseEntity {
+public class ChatGroupMessageVo extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
@@ -16,37 +17,27 @@ public class ChatUserMessageVo extends BaseEntity {
     /** 删除标识(0代表存在 1代表删除) */
     private String delFlag;
 
+    /** 群号 */
+    @Excel(name = "群号")
+    @JsonSerialize(using= ToStringSerializer.class)
+    private Long groupId;
+
     /** 发送者用户ID */
     @Excel(name = "发送者用户ID")
     @JsonSerialize(using= ToStringSerializer.class)
     private Long fromUserId;
 
-    /** 接收者用户ID */
-    @Excel(name = "接收者用户ID")
-    @JsonSerialize(using= ToStringSerializer.class)
-    private Long toUserId;
-
     /** 消息内容 */
     @Excel(name = "消息内容")
     private String messageContent;
 
-    /** 撤回标识(0代表存在 1代表撤回) */
-    @Excel(name = "撤回标识(0代表存在 1代表撤回)")
+    /** 撤回标识(0代表未撤回 1代表撤回) */
+    @Excel(name = "撤回标识(0代表未撤回 1代表撤回)")
     private String revokeFlag;
 
-    /** 发送者删除标识(0代表存在 1代表删除) */
-    @Excel(name = "发送者删除标识(0代表存在 1代表删除)")
-    private String fromUserDelFlag;
+    private ChatUserRelation fromUserRelation;
 
-    /** 接收者删除标识(0代表存在 1代表删除) */
-    @Excel(name = "接收者删除标识(0代表存在 1代表删除)")
-    private String toUserDelFlag;
-
-    /** 发送者用户 */
     private SysUser fromUser;
-
-    /** 接收者用户 */
-    private SysUser toUser;
 
     public String getId() {
         return id;
@@ -64,20 +55,20 @@ public class ChatUserMessageVo extends BaseEntity {
         this.delFlag = delFlag;
     }
 
+    public Long getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(Long groupId) {
+        this.groupId = groupId;
+    }
+
     public Long getFromUserId() {
         return fromUserId;
     }
 
     public void setFromUserId(Long fromUserId) {
         this.fromUserId = fromUserId;
-    }
-
-    public Long getToUserId() {
-        return toUserId;
-    }
-
-    public void setToUserId(Long toUserId) {
-        this.toUserId = toUserId;
     }
 
     public String getMessageContent() {
@@ -96,20 +87,12 @@ public class ChatUserMessageVo extends BaseEntity {
         this.revokeFlag = revokeFlag;
     }
 
-    public String getFromUserDelFlag() {
-        return fromUserDelFlag;
+    public ChatUserRelation getFromUserRelation() {
+        return fromUserRelation;
     }
 
-    public void setFromUserDelFlag(String fromUserDelFlag) {
-        this.fromUserDelFlag = fromUserDelFlag;
-    }
-
-    public String getToUserDelFlag() {
-        return toUserDelFlag;
-    }
-
-    public void setToUserDelFlag(String toUserDelFlag) {
-        this.toUserDelFlag = toUserDelFlag;
+    public void setFromUserRelation(ChatUserRelation fromUserRelation) {
+        this.fromUserRelation = fromUserRelation;
     }
 
     public SysUser getFromUser() {
@@ -118,14 +101,6 @@ public class ChatUserMessageVo extends BaseEntity {
 
     public void setFromUser(SysUser fromUser) {
         this.fromUser = fromUser;
-    }
-
-    public SysUser getToUser() {
-        return toUser;
-    }
-
-    public void setToUser(SysUser toUser) {
-        this.toUser = toUser;
     }
 
 }

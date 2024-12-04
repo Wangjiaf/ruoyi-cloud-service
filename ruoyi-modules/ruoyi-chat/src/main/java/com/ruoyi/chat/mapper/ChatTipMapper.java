@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 import com.ruoyi.chat.domain.ChatTip;
 import com.ruoyi.chat.vo.ChatTipVo;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
@@ -12,6 +13,7 @@ import org.apache.ibatis.annotations.Param;
  * @author ruoyi
  * @date 2024-11-14
  */
+@Mapper
 public interface ChatTipMapper 
 {
     /**

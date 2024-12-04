@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.chat.mapper.ChatGroupMessageMapper">
+
+    <resultMap type="ChatGroupMessage" id="ChatGroupMessageResult">
+        <result property="id"    column="id"    />
+        <result property="createBy"    column="create_by"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="updateBy"    column="update_by"    />
+        <result property="updateTime"    column="update_time"    />
+        <result property="remark"    column="remark"    />
+        <result property="delFlag"    column="del_flag"    />
+        <result property="groupId"    column="group_id"    />
+        <result property="fromUserId"    column="from_user_id"    />
+        <result property="messageContent"    column="message_content"    />
+        <result property="revokeFlag"    column="revoke_flag"    />
+    </resultMap>
+
+    <sql id="selectChatGroupMessageVo">
+        select id, create_by, create_time, update_by, update_time, remark, del_flag, group_id, from_user_id, message_content, revoke_flag from chat_group_message
+    </sql>
+
+    <select id="selectChatGroupMessageList" parameterType="ChatGroupMessage" resultMap="ChatGroupMessageResult">
+        <include refid="selectChatGroupMessageVo"/>
+        <where>
+            <if test="id != null  and id != ''"> and id = #{id}</if>
+            <if test="createBy != null  and createBy != ''"> and create_by = #{createBy}</if>
+            <if test="createTime != null "> and create_time = #{createTime}</if>
+            <if test="updateBy != null  and updateBy != ''"> and update_by = #{updateBy}</if>
+            <if test="updateTime != null "> and update_time = #{updateTime}</if>
+            <if test="remark != null  and remark != ''"> and remark = #{remark}</if>
+            <if test="delFlag != null  and delFlag != ''"> and del_flag = #{delFlag}</if>
+            <if test="groupId != null "> and group_id = #{groupId}</if>
+            <if test="fromUserId != null "> and from_user_id = #{fromUserId}</if>
+            <if test="messageContent != null  and messageContent != ''"> and message_content = #{messageContent}</if>
+            <if test="revokeFlag != null  and revokeFlag != ''"> and revoke_flag = #{revokeFlag}</if>
+        </where>
+    </select>
+
+    <select id="selectChatGroupMessageById" parameterType="String" resultMap="ChatGroupMessageResult">
+        <include refid="selectChatGroupMessageVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertChatGroupMessage" parameterType="ChatGroupMessage">
+        insert into chat_group_message
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="createBy != null">create_by,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="updateBy != null">update_by,</if>
+            <if test="updateTime != null">update_time,</if>
+            <if test="remark != null">remark,</if>
+            <if test="delFlag != null">del_flag,</if>
+            <if test="groupId != null">group_id,</if>
+            <if test="fromUserId != null">from_user_id,</if>
+            <if test="messageContent != null">message_content,</if>
+            <if test="revokeFlag != null">revoke_flag,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="createBy != null">#{createBy},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="updateBy != null">#{updateBy},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+            <if test="remark != null">#{remark},</if>
+            <if test="delFlag != null">#{delFlag},</if>
+            <if test="groupId != null">#{groupId},</if>
+            <if test="fromUserId != null">#{fromUserId},</if>
+            <if test="messageContent != null">#{messageContent},</if>
+            <if test="revokeFlag != null">#{revokeFlag},</if>
+        </trim>
+    </insert>
+
+    <update id="updateChatGroupMessage" parameterType="ChatGroupMessage">
+        update chat_group_message
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="createBy != null">create_by = #{createBy},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="delFlag != null">del_flag = #{delFlag},</if>
+            <if test="groupId != null">group_id = #{groupId},</if>
+            <if test="fromUserId != null">from_user_id = #{fromUserId},</if>
+            <if test="messageContent != null">message_content = #{messageContent},</if>
+            <if test="revokeFlag != null">revoke_flag = #{revokeFlag},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteChatGroupMessageById" parameterType="String">
+        delete from chat_group_message where id = #{id}
+    </delete>
+
+    <delete id="deleteChatGroupMessageByIds" parameterType="String">
+        delete from chat_group_message where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="selectChatGroupMessageVoList" parameterType="ChatGroupMessageVo" resultType="ChatGroupMessageVo">
+        select a.id, a.create_by as "createBy", a.create_time as "createTime", a.update_by as "updateBy", a.update_time as "updateTime", a.remark, a.del_flag as "delFlag",
+        a.group_id as "groupId", a.from_user_id as "fromUserId", a.message_content as "messageContent", a.revoke_flag as "revokeFlag",
+        b.id as "fromUserRelation.id", b.create_by as "fromUserRelation.createBy", b.create_time as "fromUserRelation.createTime", b.update_by as "fromUserRelation.updateBy", b.update_time as "fromUserRelation.updateTime",
+        b.remark as "fromUserRelation.remark", b.del_flag as "fromUserRelation.delFlag", b.user_id as "fromUserRelation.userId", b.relation_user_id as "fromUserRelation.relationUserId", b.relation_user_remark as "fromUserRelation.relationUserRemark",
+        a.from_user_id as "fromUser.userId", c.dept_id as "fromUser.deptId", c.user_name as "fromUser.userName", c.nick_name as "fromUser.nickName", c.email as "fromUser.email", c.avatar as "fromUser.avatar", c.phonenumber as "fromUser.phonenumber", c.sex as "fromUser.sex",
+        c.status as "fromUser.status", c.del_flag as "fromUser.delFlag", c.login_ip as "fromUser.loginIp", c.login_date as "fromUser.loginDate", c.create_by as "fromUser.createBy", c.create_time as "fromUser.createTime", c.remark as "fromUser.remark"
+        from chat_group_message a
+        left join chat_user_relation b on b.user_id = #{params.loginUserId} and a.from_user_id = b.relation_user_id
+        left join sys_user c on a.from_user_id = c.user_id
+        <where>
+            <if test="id != null  and id != ''"> and a.id = #{id}</if>
+            <if test="createBy != null  and createBy != ''"> and a.create_by = #{createBy}</if>
+            <if test="createTime != null "> and a.create_time = #{createTime}</if>
+            <if test="updateBy != null  and updateBy != ''"> and a.update_by = #{updateBy}</if>
+            <if test="updateTime != null "> and a.update_time = #{updateTime}</if>
+            <if test="remark != null  and remark != ''"> and a.remark = #{remark}</if>
+            <if test="delFlag != null  and delFlag != ''"> and a.del_flag = #{delFlag}</if>
+            <if test="groupId != null "> and a.group_id = #{groupId}</if>
+            <if test="fromUserId != null "> and a.from_user_id = #{fromUserId}</if>
+            <if test="messageContent != null  and messageContent != ''"> and a.message_content = #{messageContent}</if>
+            <if test="revokeFlag != null  and revokeFlag != ''"> and a.revoke_flag = #{revokeFlag}</if>
+        </where>
+    </select>
+
+</mapper>

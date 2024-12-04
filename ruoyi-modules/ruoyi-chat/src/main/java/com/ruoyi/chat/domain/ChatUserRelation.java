@@ -1,5 +1,7 @@
 package com.ruoyi.chat.domain;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.ruoyi.common.core.annotation.Excel;
@@ -22,9 +24,11 @@ public class ChatUserRelation extends BaseEntity
     private String delFlag;
 
     /** 用户ID */
+    @JsonSerialize(using= ToStringSerializer.class)
     private Long userId;
 
     /** 好友用户ID */
+    @JsonSerialize(using= ToStringSerializer.class)
     private Long relationUserId;
 
     /** 好友备注 */
