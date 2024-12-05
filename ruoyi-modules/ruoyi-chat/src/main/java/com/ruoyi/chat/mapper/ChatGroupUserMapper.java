@@ -1,8 +1,10 @@
 package com.ruoyi.chat.mapper;
 
+import java.util.Date;
 import java.util.List;
 import com.ruoyi.chat.domain.ChatGroupUser;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * 群成员数据Mapper接口
@@ -60,5 +62,7 @@ public interface ChatGroupUserMapper
      * @return 结果
      */
     public int deleteChatGroupUserByIds(String[] ids);
+
+    public int resetChatGroupUserNormal(@Param("id") String id, @Param("updateBy") String updateBy, @Param("updateTime") Date updateTime);
 
 }

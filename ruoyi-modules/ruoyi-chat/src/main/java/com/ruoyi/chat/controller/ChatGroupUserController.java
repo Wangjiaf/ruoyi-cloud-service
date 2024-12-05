@@ -3,6 +3,8 @@ package com.ruoyi.chat.controller;
 import java.util.List;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
+
+import com.ruoyi.chat.dto.ChatGroupUserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -102,6 +104,13 @@ public class ChatGroupUserController extends BaseController
     public AjaxResult remove(@PathVariable String[] ids)
     {
         return toAjax(chatGroupUserService.deleteChatGroupUserByIds(ids));
+    }
+
+    @Log(title = "群成员数据", businessType = BusinessType.INSERT)
+    @PostMapping("/addGroupUser")
+    public AjaxResult addGroupUser(@RequestBody ChatGroupUserDto chatGroupUserDto)
+    {
+        return toAjax(chatGroupUserService.addGroupUser(chatGroupUserDto));
     }
 
 }

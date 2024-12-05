@@ -2,6 +2,7 @@ package com.ruoyi.chat.mapper;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatGroup;
+import com.ruoyi.chat.vo.ChatGroupVo;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -60,5 +61,7 @@ public interface ChatGroupMapper
      * @return 结果
      */
     public int deleteChatGroupByIds(String[] ids);
+
+    public List<ChatGroupVo> selectChatGroupVoList(ChatGroupVo chatGroupVo);
 
 }

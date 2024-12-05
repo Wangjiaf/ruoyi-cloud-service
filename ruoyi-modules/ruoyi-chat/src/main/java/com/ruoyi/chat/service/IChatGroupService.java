@@ -2,6 +2,7 @@ package com.ruoyi.chat.service;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatGroup;
+import com.ruoyi.chat.vo.ChatGroupVo;
 import com.ruoyi.common.core.web.domain.AjaxResult;
 
 /**
@@ -59,6 +60,8 @@ public interface IChatGroupService
      * @return 结果
      */
     public int deleteChatGroupById(String id);
+
+    public List<ChatGroupVo> selectChatGroupVoList(ChatGroupVo chatGroupVo);
 
     public AjaxResult addGroup(ChatGroup chatGroup);
 

@@ -25,12 +25,12 @@ public class ChatUserMessage extends BaseEntity
 
     /** 发送者用户ID */
     @Excel(name = "发送者用户ID")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long fromUserId;
 
     /** 接收者用户ID */
     @Excel(name = "接收者用户ID")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long toUserId;
 
     /** 消息内容 */

@@ -19,11 +19,11 @@ public class ChatUserRelationVo extends BaseEntity {
     private String delFlag;
 
     /** 用户ID */
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long userId;
 
     /** 好友用户ID */
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long relationUserId;
 
     /** 好友备注 */

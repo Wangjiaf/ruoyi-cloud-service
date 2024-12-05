@@ -114,12 +114,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         b.remark as "tipFromChatUserRelation.remark", b.del_flag as "tipFromChatUserRelation.delFlag", b.user_id as "tipFromChatUserRelation.userId", b.relation_user_id as "tipFromChatUserRelation.relationUserId", b.relation_user_remark as "tipFromChatUserRelation.relationUserRemark",
         c.user_id as "tipFromUser.userId", c.dept_id as "tipFromUser.deptId", c.user_name as "tipFromUser.userName", c.nick_name as "tipFromUser.nickName", c.email as "tipFromUser.email", c.avatar as "tipFromUser.avatar", c.phonenumber as "tipFromUser.phonenumber", c.sex as "tipFromUser.sex",
         c.status as "tipFromUser.status", c.del_flag as "tipFromUser.delFlag", c.login_ip as "tipFromUser.loginIp", c.login_date as "tipFromUser.loginDate", c.create_by as "tipFromUser.createBy", c.create_time as "tipFromUser.createTime", c.remark as "tipFromUser.remark",
-        d.id as "tipFromChatGroup.id", d.create_by as "tipFromChatGroup.createBy", d.create_time as "tipFromChatGroup.createTime", d.update_by as "tipFromChatGroup.updateBy", d.update_time as "tipFromChatGroup.updateTime",
-        d.remark as "tipFromChatGroup.remark", d.del_flag as "tipFromChatGroup.delFlag", d.group_id as "tipFromChatGroup.groupId", d.group_name as "tipFromChatGroup.groupName", d.avatar as "tipFromChatGroup.avatar"
+        d.id as "tipFromChatGroupVo.id", d.create_by as "tipFromChatGroupVo.createBy", d.create_time as "tipFromChatGroupVo.createTime", d.update_by as "tipFromChatGroupVo.updateBy", d.update_time as "tipFromChatGroupVo.updateTime",
+        d.remark as "tipFromChatGroupVo.remark", d.del_flag as "tipFromChatGroupVo.delFlag", d.group_id as "tipFromChatGroupVo.groupId", d.group_name as "tipFromChatGroupVo.groupName", d.avatar as "tipFromChatGroupVo.avatar",
+        e.group_user_count as "tipFromChatGroupVo.groupUserCount"
         from chat_tip a
         left join chat_user_relation b on a.user_id = b.user_id and a.tip_from_id = b.relation_user_id
         left join sys_user c on a.tip_from_id = c.user_id
         left join chat_group d on a.tip_from_id = d.group_id
+        left join (select group_id, count(1) as "group_user_count" from chat_group_user where del_flag = '0' and leave_flag = '0' group by group_id) e on a.tip_from_id = e.group_id
         <where>
             <if test="id != null  and id != ''"> and a.id = #{id}</if>
             <if test="createBy != null  and createBy != ''"> and a.create_by = #{createBy}</if>

@@ -26,7 +26,7 @@ public class ChatGroup extends BaseEntity
 
     /** 群号 */
     @Excel(name = "群号")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long groupId;
 
     /** 群名称 */

@@ -2,7 +2,6 @@ package com.ruoyi.chat.vo;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
-import com.ruoyi.chat.domain.ChatGroup;
 import com.ruoyi.chat.domain.ChatUserRelation;
 import com.ruoyi.common.core.annotation.Excel;
 import com.ruoyi.common.core.web.domain.BaseEntity;
@@ -24,12 +23,12 @@ public class ChatTipVo extends BaseEntity {
 
     /** 用户ID */
     @Excel(name = "用户ID")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long userId;
 
     /** 好友ID/群ID */
     @Excel(name = "好友ID/群ID")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long tipFromId;
 
     /** 提示内容 */
@@ -44,7 +43,7 @@ public class ChatTipVo extends BaseEntity {
 
     private SysUser tipFromUser;
 
-    private ChatGroup tipFromChatGroup;
+    private ChatGroupVo tipFromChatGroupVo;
 
     public String getId() {
         return id;
@@ -118,12 +117,12 @@ public class ChatTipVo extends BaseEntity {
         this.unReadCount = unReadCount;
     }
 
-    public ChatGroup getTipFromChatGroup() {
-        return tipFromChatGroup;
+    public ChatGroupVo getTipFromChatGroupVo() {
+        return tipFromChatGroupVo;
     }
 
-    public void setTipFromChatGroup(ChatGroup tipFromChatGroup) {
-        this.tipFromChatGroup = tipFromChatGroup;
+    public void setTipFromChatGroupVo(ChatGroupVo tipFromChatGroupVo) {
+        this.tipFromChatGroupVo = tipFromChatGroupVo;
     }
 
 }

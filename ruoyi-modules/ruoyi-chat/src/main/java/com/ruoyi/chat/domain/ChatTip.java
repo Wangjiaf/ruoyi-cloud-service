@@ -29,12 +29,12 @@ public class ChatTip extends BaseEntity
 
     /** 用户ID */
     @Excel(name = "用户ID")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long userId;
 
     /** 好友ID/群ID */
     @Excel(name = "好友ID/群ID")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long tipFromId;
 
     /** 提示内容 */

@@ -5,6 +5,7 @@ import java.util.List;
 import com.ruoyi.chat.constant.ChatGroupUserConstant;
 import com.ruoyi.chat.domain.ChatGroupUser;
 import com.ruoyi.chat.mapper.ChatGroupUserMapper;
+import com.ruoyi.chat.vo.ChatGroupVo;
 import com.ruoyi.common.core.utils.DateUtils;
 import com.ruoyi.common.core.utils.uuid.SnowflakeUtils;
 import com.ruoyi.common.core.web.domain.AjaxResult;
@@ -104,6 +105,12 @@ public class ChatGroupServiceImpl implements IChatGroupService
     public int deleteChatGroupById(String id)
     {
         return chatGroupMapper.deleteChatGroupById(id);
+    }
+
+    @Override
+    public List<ChatGroupVo> selectChatGroupVoList(ChatGroupVo chatGroupVo)
+    {
+        return chatGroupMapper.selectChatGroupVoList(chatGroupVo);
     }
 
     @Override

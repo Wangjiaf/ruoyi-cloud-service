@@ -3,6 +3,8 @@ package com.ruoyi.chat.controller;
 import java.util.List;
 import java.io.IOException;
 import javax.servlet.http.HttpServletResponse;
+
+import com.ruoyi.chat.vo.ChatGroupVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -39,7 +41,7 @@ public class ChatGroupController extends BaseController
     /**
      * 查询群组主数据列表
      */
-//    @RequiresPermissions("chat:chatGroup:list")
+    @RequiresPermissions("chat:chatGroup:list")
     @GetMapping("/list")
     public TableDataInfo list(ChatGroup chatGroup)
     {
@@ -102,6 +104,14 @@ public class ChatGroupController extends BaseController
     public AjaxResult remove(@PathVariable String[] ids)
     {
         return toAjax(chatGroupService.deleteChatGroupByIds(ids));
+    }
+
+    @GetMapping("/listVo")
+    public TableDataInfo listVo(ChatGroupVo chatGroupVo)
+    {
+        startPage();
+        List<ChatGroupVo> list = chatGroupService.selectChatGroupVoList(chatGroupVo);
+        return getDataTable(list);
     }
 
     /**

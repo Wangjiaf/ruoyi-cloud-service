@@ -28,12 +28,12 @@ public class ChatGroupUser extends BaseEntity
 
     /** 群号 */
     @Excel(name = "群号")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long groupId;
 
     /** 群成员用户ID */
     @Excel(name = "群成员用户ID")
-    @JsonSerialize(using= ToStringSerializer.class)
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long userId;
 
     /** 成员在群内角色 */
@@ -45,8 +45,8 @@ public class ChatGroupUser extends BaseEntity
     private String leaveFlag;
 
     /** 成员离群时间 */
-    @JsonFormat(pattern = "yyyy-MM-dd")
-    @Excel(name = "成员离群时间", width = 30, dateFormat = "yyyy-MM-dd")
+//    @JsonFormat(pattern = "yyyy-MM-dd")
+    @Excel(name = "成员离群时间", width = 30, dateFormat = "yyyy-MM-dd HH:mm:ss")
     private Date leaveTime;
 
     public void setId(String id)

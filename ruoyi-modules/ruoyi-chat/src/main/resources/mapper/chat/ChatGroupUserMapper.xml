@@ -107,4 +107,8 @@
         </foreach>
     </delete>
 
+    <update id="resetChatGroupUserNormal">
+        update chat_group_user set update_by = #{updateBy}, update_time = #{updateTime}, del_flag = '0', leave_flag = '0', leave_time = null where id = #{id}
+    </update>
+
 </mapper>

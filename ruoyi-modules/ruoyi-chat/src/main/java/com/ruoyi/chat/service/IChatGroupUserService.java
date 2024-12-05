@@ -2,6 +2,7 @@ package com.ruoyi.chat.service;
 
 import java.util.List;
 import com.ruoyi.chat.domain.ChatGroupUser;
+import com.ruoyi.chat.dto.ChatGroupUserDto;
 
 /**
  * 群成员数据Service接口
@@ -58,5 +59,7 @@ public interface IChatGroupUserService
      * @return 结果
      */
     public int deleteChatGroupUserById(String id);
+
+    public int addGroupUser(ChatGroupUserDto chatGroupUserDto);
 
 }
